@@ -1,18 +1,13 @@
-
 # Import the google text to speech api and ability to open files
 from gtts import gTTS
 import os
 
-# Our language choices
-mytext = 'Hello world. It is nice to meet you.'
-language = 'en'
-accent = 'com'
+# what do we want to say?
+mytext = 'Jimena is weirder than the word weird.'
 
-# send the options to the server
-myobj = gTTS(text=mytext, lang=language, slow=False, tld=accent)
-  
-# save a file for playing
+# send the choices to the server and save
+myobj = gTTS(text=mytext)
 myobj.save("welcome.mp3")
   
-# Playing the saved file
+# Play the saved file
 os.system("open welcome.mp3")
