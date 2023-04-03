@@ -12,6 +12,7 @@ I suggest a quick overview for kids on the following:
 
 - python 3.0 or later (install is based on OS)
 - [pip](https://pip.pypa.io/en/stable/installation/)
+- install gps using pip: `pip install gtts`
 
 ## Script descriptions:
 
